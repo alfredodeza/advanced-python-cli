@@ -1,22 +1,46 @@
-# Python CLI Example
-A small Python CLI example you can use to build on. With an emphasis on Linux and creating automation tools that solve a problem for you. THis is the basis for DevOps principles that you can apply in your own environment as well as production environments.
+# Advanced Python CLI Examples
+A small Python CLI example you can use to build on. With an emphasis on Linux and creating automation tools that solve a problem for you. This is the basis for DevOps principles that you can apply in your own environment as well as production environments for automating tasks and making your an efficient engineer.
 
-## Setting up the environment
-Python development will require you to have Python installed on your system. For Linux systems, you should prefer the Python that comes available through the package manager. For example, on Ubuntu, you can install Python with the following command:
+This repository is *Codespaces ready*, and it is set as a template repository. You can create a new repository from this template and start working on your own with Codespaces. This means that Python, Copilot, and all the extensions are already installed and configured for you.
 
-```bash
-sudo apt-get update && sudo apt-get install python3
-``` 
+This is part 1 of the Python and Rust CLI tools course. There are 2 weeks in total:
 
-The _update_ part is required if this is a fresh install of the system. Any Python version above 3.6 should work well for this repository, its examples, and most of the work shown in the video course.
+- [1: Resources](https://github.com/alfredodeza/python-and-rust-tools) 
+- [2: Python CLI](https://github.com/alfredodeza/python-cli-example)
+- [3: Rust CLI](https://github.com/alfredodeza/rust-cli-example)
+- [4: Python Advanced CLI](https://github.com/alfredodeza/advanced-python-cli) 👈 You are here!
 
-The course uses [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-alfredodeza) exclusively, but you can use any other text editor as well. 
+🚀 **Watch the Video course**
+
+[![O'Reilly](https://learning.oreilly.com/covers/urn:orm:video:28037639VIDEOPAIML/400w/)](https://learning.oreilly.com/videos/devops-command-line-tools/28037639VIDEOPAIML/ "Python and Rust CLI tools")
+
+## Contents
+This week has several examples located in the [./examples](./examples) directory. Make sure you have Rust installed and you are using [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-alfredodeza).
+
+This repository is *Codespaces ready*, and it is set as a template repository. You can create a new repository from this template and start working on your own with Codespaces. This means that Rust, Copilot, and all the extensions are already installed and configured for you.
 
 These are all the tools and editor extensions recommended for Python development:
 
 - [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-alfredodeza)
 - [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-0000-alfredodeza)
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&WT.mc_id=academic-0000-alfredodeza)
+
+### Lesson 1: Developing comples Command-line tools
+- [Adding Sub-commands]()
+- [Parsing complex arguments]()
+- [Adding environment variables]()
+
+### Lesson 2: Packaging and distributing your tool
+- [Creating a Package]()
+
+### Lesson 3: Logging and error handling strategies
+- [Basic Logging]()
+- [Adding different types of logging]()
+- [Handling errors]()
+  
+### Lesson 4: Practice Lab
+Use the [included practice lab](./lab.md) to apply the content you've learned in this week. Follow the steps to create your own repository and apply the requirements to complete the lab.
+
 
 ## Resources
 Explore additional content that you can use to learn more about the topics covered in this course.
@@ -32,6 +56,7 @@ Explore additional content that you can use to learn more about the topics cover
 
 **O'Reilly Courses and Books**
 
+- [Python Command Line Tools Course](https://learning.oreilly.com/videos/python-command-line/50131VIDEOPAIML/) (Video Course)
 - [Python for DevOps](https://www.oreilly.com/library/view/python-for-devops/9781492057680/) (Book)
 - [Practical MLOps](https://www.oreilly.com/library/view/practical-mlops/9781098103002/) (Book)
 - [Linux For Beginners](https://learning.oreilly.com/videos/-/27922450VIDEOPAIML/) (Video)
