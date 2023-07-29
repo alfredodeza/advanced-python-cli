@@ -2,7 +2,6 @@ import subprocess
 import shlex
 import json
 
-
 # create a function that runs suprocess and returns the output
 def run_command(command):
     cmd = shlex.split(command)
@@ -34,10 +33,3 @@ def run_lsblk(device):
             if child['name'] == device:
                 return child
 
-
-def main(device):
-    print(f"         '{run_lsblk(device)}'")
-
-if __name__ == '__main__':
-    import sys
-    main(sys.argv[-1])

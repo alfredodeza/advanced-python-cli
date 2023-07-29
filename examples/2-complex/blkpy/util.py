@@ -1,8 +1,6 @@
 import subprocess
 import shlex
 import json
-import click
-
 
 # create a function that runs suprocess and returns the output
 def run_command(command):
@@ -35,11 +33,3 @@ def run_lsblk(device):
             if child['name'] == device:
                 return child
 
-
-@click.command()
-@click.option('--verbose', '-v', is_flag=True)
-@click.argument('device')
-def main(device, verbose):
-    print(f"Device: {device}")
-    print(f"Verbose: {verbose}")
-    print(f"{run_lsblk(device)}")
