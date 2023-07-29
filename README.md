@@ -3,12 +3,13 @@ A small Python CLI example you can use to build on. With an emphasis on Linux an
 
 This repository is *Codespaces ready*, and it is set as a template repository. You can create a new repository from this template and start working on your own with Codespaces. This means that Python, Copilot, and all the extensions are already installed and configured for you.
 
-This is part 1 of the Python and Rust CLI tools course. There are 2 weeks in total:
+This repository is part of the Python and Rust CLI tools course:
 
 - [1: Resources](https://github.com/alfredodeza/python-and-rust-tools) 
 - [2: Python CLI](https://github.com/alfredodeza/python-cli-example)
 - [3: Rust CLI](https://github.com/alfredodeza/rust-cli-example)
 - [4: Python Advanced CLI](https://github.com/alfredodeza/advanced-python-cli) 👈 You are here!
+- [5: Rust Advanced CLI](https://github.com/alfredodeza/advanced-rust-cli)
 
 🚀 **Watch the Video course**
 
