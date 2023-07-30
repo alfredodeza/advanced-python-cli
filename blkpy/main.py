@@ -1,10 +1,29 @@
 import click
 from blkpy.util import run_lsblk
 
-@click.command()
+# Example usage:
+# blkpy vda1
+
+# Requirement
+# blkpy info vda1
+
+
+@click.group()
 @click.option('--verbose', '-v', is_flag=True)
-@click.argument('device')
-def main(device, verbose):
-    print(f"Device: {device}")
+def main(verbose):
     print(f"Verbose: {verbose}")
+    pass
+
+
+@main.command()
+@click.argument('device')
+def info(device):
+    print(f"Device: {device}")
     print(f"{run_lsblk(device)}")
+
+
+@main.command()
+@click.argument('device')
+def nice(device):
+    print(f"Device: {device}")
+    print(f"{run_lsblk(device, nice=True)}")
