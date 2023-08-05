@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "blkpy-demo"
+version = "0.0.1"
+description = "demo python CLI tool to list block devices"
+authors = ["Alfredo Deza"]
+url = "https://github.com/alfredodeza/python-cli-example"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^7.1.2"
