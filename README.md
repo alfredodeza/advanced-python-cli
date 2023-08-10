@@ -29,17 +29,18 @@ These are all the tools and editor extensions recommended for Python development
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&WT.mc_id=academic-0000-alfredodeza)
 
 ### Lesson 1: Developing comples Command-line tools
-- [Adding Sub-commands]()
-- [Parsing complex arguments]()
-- [Adding environment variables]()
+- [Adding Sub-commands](./examples/1-subcommands/)
+- [Parsing complex arguments](./examples/2-complex)
+- [Adding environment variables](./examples/3-envvars)
 
 ### Lesson 2: Packaging and distributing your tool
-- [Creating a Package]()
+- [Creating a Package](./examples/4-package)
+- [Using Setuptools](./examples/5-setuptools/)
 
 ### Lesson 3: Logging and error handling strategies
-- [Basic Logging]()
-- [Adding different types of logging]()
-- [Handling errors]()
+- [Basic Logging](./examples/6-logging)
+- [Adding different types of logging](./examples/7-file-logs)
+- [Handling errors](./examples/8-error-handling)
   
 ### Lesson 4: Practice Lab
 Use the [included practice lab](./lab.md) to apply the content you've learned in this week. Follow the steps to create your own repository and apply the requirements to complete the lab.
