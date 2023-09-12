@@ -28,7 +28,7 @@ These are all the tools and editor extensions recommended for Python development
 - [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-0000-alfredodeza)
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&WT.mc_id=academic-0000-alfredodeza)
 
-### Lesson 1: Developing comples Command-line tools
+### Lesson 1: Developing complex Command-line tools
 - [Adding Sub-commands](./examples/1-subcommands/)
 - [Parsing complex arguments](./examples/2-complex)
 - [Adding environment variables](./examples/3-envvars)
