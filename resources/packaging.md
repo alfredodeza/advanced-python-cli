@@ -25,6 +25,7 @@ build-backend = "setuptools.build_meta"
 This project also has a `pyproject.toml` file that works in the same way as the `setup.py` file. You can use the `build` package and command to build your project. This will create a `dist` directory with the distribution files.
 
 ```bash
+pip install build
 $ python -m build
 ```
 
