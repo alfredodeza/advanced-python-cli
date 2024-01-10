@@ -1,9 +1,11 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=672304830)
+# [![Coursera Course](./resources/banner.svg)](https://insight.paiml.com/nvd "Coursera Course")
 
 # Advanced Python CLI Examples
 A small Python CLI example you can use to build on. With an emphasis on Linux and creating automation tools that solve a problem for you. This is the basis for DevOps principles that you can apply in your own environment as well as production environments for automating tasks and making your an efficient engineer.
 
 This repository is *Codespaces ready*, and it is set as a template repository. You can create a new repository from this template and start working on your own with Codespaces. This means that Python, Copilot, and all the extensions are already installed and configured for you.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=672304830)
 
 This repository is part of the Python and Rust CLI tools course:
 
