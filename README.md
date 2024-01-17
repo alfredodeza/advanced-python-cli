@@ -15,10 +15,6 @@ This repository is part of the Python and Rust CLI tools course:
 - [4: Python Advanced CLI](https://github.com/alfredodeza/advanced-python-cli) 👈 You are here!
 - [5: Rust Advanced CLI](https://github.com/alfredodeza/advanced-rust-cli)
 
-🚀 **Watch the Video course**
-
-[![O'Reilly](https://learning.oreilly.com/covers/urn:orm:video:28037639VIDEOPAIML/400w/)](https://learning.oreilly.com/videos/devops-command-line-tools/28037639VIDEOPAIML/ "Python and Rust CLI tools")
-
 ## Contents
 This week has several examples located in the [./examples](./examples) directory. Make sure you have Rust installed and you are using [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-alfredodeza).
 
